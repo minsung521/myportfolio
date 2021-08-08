@@ -1,0 +1,16 @@
+.Landing {
+	display: flex;
+	flex-direction: row-reverse;
+}
+.greeting-text {
+	margin: 40rem auto 5rem 10rem;
+	font-size: 72px;
+	font-weight: 600;
+}
+.enter-text {
+	color: #5cce02;
+	font-size: 88px;
+}
+.name-text {
+	font-size: 88px;
+}

@@ -1,0 +1,19 @@
+.main-menu {
+}
+.main-menu-nav {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.main-menu-nav > a {
+	margin: 12px 0px 0px 0px;
+	display: flex;
+	width: 120px;
+	height: 40px;
+	background-color: #181818;
+	text-decoration: none;
+}
+
+.main-menu-nav > a:hover {
+	width: 180px;
+}
