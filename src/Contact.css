@@ -1,0 +1,16 @@
+.Contact {
+	display: flex;
+	flex-direction: row-reverse;
+}
+.Contact-contents {
+	margin: 6rem auto 4rem 8rem;
+	font-size: 64px;
+	font-weight: 600;
+}
+.enter-text {
+	color: #5cce02;
+	font-size: 68px;
+}
+.title {
+	color: #88ffef;
+}

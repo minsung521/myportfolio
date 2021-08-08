@@ -7,12 +7,12 @@ const Landing = () => {
 	const name = useRef(null);
 	useEffect(() => {
 		const typed = new Typed(name.current, {
-			strings: ["I'm Minsung!"], // Strings to display
+			strings: ["I'm Web Developer!", "I'm Student!", "I'm Minsung!"], // Strings to display
 			// Speed settings, try diffrent values untill you get good results
 			startDelay: 300,
-			typeSpeed: 100,
-			backSpeed: 100,
-			backDelay: 100,
+			typeSpeed: 80,
+			backSpeed: 80,
+			backDelay: 80,
 			loop: false,
 		});
 

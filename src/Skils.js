@@ -4,9 +4,9 @@ import "./Skils.css";
 import Typed from "typed.js";
 
 function Skils() {
-	const iam = useRef(null);
+	const skil = useRef(null);
 	useEffect(() => {
-		const typed = new Typed(iam.current, {
+		const typed = new Typed(skil.current, {
 			strings: ["What can i do?"], // Strings to display
 			// Speed settings, try diffrent values untill you get good results
 			startDelay: 300,
@@ -26,7 +26,7 @@ function Skils() {
 			<Menu />
 			<div className="about-contents">
 				<span className="enter-text">❯ </span>
-				<span ref={iam} className="title"></span>
+				<span ref={skil} className="title"></span>
 			</div>
 		</div>
 	);

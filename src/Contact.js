@@ -1,13 +1,13 @@
 import React, { useRef, useEffect } from "react";
 import Typed from "typed.js";
 import Menu from "./components/Menu";
-import "./Work.css";
+import "./Contact.css";
 
-function Work() {
-	const work = useRef(null);
+function Contact() {
+	const iam = useRef(null);
 	useEffect(() => {
-		const typed = new Typed(work.current, {
-			strings: ["What i did?"], // Strings to display
+		const typed = new Typed(iam.current, {
+			strings: ["Contact me!"], // Strings to display
 			// Speed settings, try diffrent values untill you get good results
 			startDelay: 300,
 			typeSpeed: 100,
@@ -22,14 +22,14 @@ function Work() {
 		};
 	}, []);
 	return (
-		<div className="About">
+		<div className="Contact">
 			<Menu />
-			<div className="about-contents">
+			<div className="Contact-contents">
 				<span className="enter-text">❯ </span>
-				<span ref={work} className="title"></span>
+				<span ref={iam} className="title"></span>
 			</div>
 		</div>
 	);
 }
 
-export default Work;
+export default Contact;

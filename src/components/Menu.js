@@ -24,9 +24,6 @@ function Menu() {
 				<a rel="Contact" href="/contact">
 					Contact
 				</a>
-				<a rel="work" href="/work">
-					Work
-				</a>
 			</nav>
 		</menu>
 	);
