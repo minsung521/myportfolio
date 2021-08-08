@@ -2,8 +2,8 @@
 	display: flex;
 	flex-direction: row-reverse;
 }
-.greeting-text {
-	margin: 40rem auto 5rem 10rem;
+.greeting-contents {
+	margin: 40rem auto 4rem 10rem;
 	font-size: 72px;
 	font-weight: 600;
 }
