@@ -24,6 +24,17 @@ function Menu() {
 				<a rel="Contact" href="/contact">
 					Contact
 				</a>
+				<ul>
+					<a href="https://www.instagram.com/mingsung_521/" target="_blank">
+						<i class="fab fa-instagram fa-2x"></i>
+					</a>
+					<a href="https://www.instagram.com/mingsung_521/" target="_blank">
+						<i class="fab fa-facebook-f fa-2x"></i>
+					</a>
+					<a href="https://www.instagram.com/mingsung_521/" target="_blank">
+						<i class="fab fa-github fa-2x"></i>
+					</a>
+				</ul>
 			</nav>
 		</menu>
 	);
