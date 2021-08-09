@@ -1,12 +1,12 @@
 import React, { useEffect, useRef } from "react";
 import Menu from "./components/Menu";
-import "./Skils.css";
+import "./Skills.css";
 import Typed from "typed.js";
 
-function Skils() {
-	const skil = useRef(null);
+function Skills() {
+	const skills = useRef(null);
 	useEffect(() => {
-		const typed = new Typed(skil.current, {
+		const typed = new Typed(skills.current, {
 			strings: ["What can i do?"], // Strings to display
 			// Speed settings, try diffrent values untill you get good results
 			startDelay: 300,
@@ -22,14 +22,20 @@ function Skils() {
 		};
 	}, []);
 	return (
-		<div className="About">
+		<div className="Skills">
 			<Menu />
-			<div className="about-contents">
-				<span className="enter-text">❯ </span>
-				<span ref={skil} className="title"></span>
+			<div className="Skills-contents">
+				<div>
+					<span className="enter-text">❯ </span>
+					<span ref={skills} className="title"></span>
+				</div>
+				<div className="Skills-contents-main">
+					<p className="Skills-article"></p>
+					<div className="Skills-detail"></div>
+				</div>
 			</div>
 		</div>
 	);
 }
 
-export default Skils;
+export default Skills;

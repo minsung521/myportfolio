@@ -15,14 +15,17 @@ function Menu() {
 				<a rel="about" href="/about">
 					About
 				</a>
-				<a rel="skils" href="/skils">
-					Skils
+				<a rel="skills" href="/skills">
+					Skills
 				</a>
 				<a rel="work" href="/work">
 					Work
 				</a>
 				<a rel="Contact" href="/contact">
 					Contact
+				</a>
+				<a rel="Blog" href="https://devmingsung.tistory.com/" target="_blank">
+					Blog
 				</a>
 				<ul>
 					<a href="https://www.instagram.com/mingsung_521/" target="_blank">

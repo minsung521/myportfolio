@@ -1,0 +1,37 @@
+.Skills {
+	display: flex;
+	flex-direction: row-reverse;
+}
+.Skills-contents {
+	width: 90rem;
+	border: #5cce02 1px solid;
+	margin: 4rem auto 4rem 4rem;
+	font-size: 64px;
+	font-weight: 600;
+}
+.enter-text {
+	color: #5cce02;
+	font-size: 68px;
+}
+.title {
+	color: #88ffef;
+}
+
+.Skills-contents-main {
+	display: flex;
+	flex-direction: row;
+}
+
+.Skills-article {
+	margin-left: 0.5rem;
+	width: 40rem;
+	height: auto;
+	border: #5cce02 1px solid;
+}
+
+.Skills-detail {
+	margin-left: 1rem;
+	width: 48rem;
+	height: 30rem;
+	background-color: blue;
+}

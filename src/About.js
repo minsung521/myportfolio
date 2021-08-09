@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import Typed from "typed.js";
 import Menu from "./components/Menu";
-import "./about.css";
+import "./About.css";
 
 function About() {
 	const iam = useRef(null);
@@ -24,14 +24,15 @@ function About() {
 	return (
 		<div className="About">
 			<Menu />
-			<div className="about-contents">
-				<span className="enter-text">❯ </span>
-				<span ref={iam} className="title"></span>
-				<p>
-					좋아하는 것은 코딩 축구 기타 유튜브 시청 음악감상 등이 있습니다.
-					싫어하는 것은 딱히 없습니다. <br />
-					안에 내용물까지 만드려니 피곤해서 내일 만들겠습니다.
-				</p>
+			<div className="About-contents">
+				<div>
+					<span className="enter-text">❯ </span>
+					<span ref={iam} className="title"></span>
+				</div>
+				<div className="About-contents-main">
+					<p className="About-article"></p>
+					<div className="About-detail"></div>
+				</div>
 			</div>
 		</div>
 	);

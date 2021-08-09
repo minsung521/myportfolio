@@ -7,7 +7,7 @@ function Work() {
 	const work = useRef(null);
 	useEffect(() => {
 		const typed = new Typed(work.current, {
-			strings: ["What i did?"], // Strings to display
+			strings: ["Introducing my works!"], // Strings to display
 			// Speed settings, try diffrent values untill you get good results
 			startDelay: 300,
 			typeSpeed: 100,
@@ -22,9 +22,9 @@ function Work() {
 		};
 	}, []);
 	return (
-		<div className="About">
+		<div className="Work">
 			<Menu />
-			<div className="about-contents">
+			<div className="Work-contents">
 				<span className="enter-text">❯ </span>
 				<span ref={work} className="title"></span>
 			</div>
