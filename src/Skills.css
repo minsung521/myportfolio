@@ -4,7 +4,7 @@
 }
 .Skills-contents {
 	width: 90rem;
-	border: #5cce02 1px solid;
+	/* border: #5cce02 1px solid; */
 	margin: 4rem auto 4rem 4rem;
 	font-size: 64px;
 	font-weight: 600;
@@ -23,15 +23,37 @@
 }
 
 .Skills-article {
+	font-family: "NanumSquare", "Noto Sans KR", "sans-serif";
+	font-weight: 300;
+	font-size: 20px;
 	margin-left: 0.5rem;
 	width: 40rem;
 	height: auto;
-	border: #5cce02 1px solid;
+	/* border: #5cce02 1px solid; */
 }
 
 .Skills-detail {
 	margin-left: 1rem;
 	width: 48rem;
 	height: 30rem;
-	background-color: blue;
+	/* border: #5cce02 1px solid; */
+	font-size: 2rem;
+	/* background-color: blue; */
+}
+
+li {
+	list-style-type: none;
+}
+.Skill-bar {
+	margin: 0.5rem;
+}
+
+.Skill-bar footer {
+	background-color: #373737;
+	height: 2px;
+}
+.Skill-bar footer div {
+	transition: width 1.3s ease-out;
+	background-color: #b99dff;
+	height: 100%;
 }
