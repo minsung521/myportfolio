@@ -25,8 +25,27 @@ function Work() {
 		<div className="Work">
 			<Menu />
 			<div className="Work-contents">
-				<span className="enter-text">❯ </span>
-				<span ref={work} className="title"></span>
+				<div>
+					<span className="enter-text">❯ </span>
+					<span ref={work} className="title"></span>
+				</div>
+				<div className="Work-cards">
+					<div className="card"></div>
+					<div className="card"></div>
+					<div className="card"></div>
+					<div className="card"></div>
+					<div className="card"></div>
+					<div className="card"></div>
+					<div className="card"></div>
+					<div className="card"></div>
+					<div className="card"></div>
+					<div className="card"></div>
+					<div className="card"></div>
+					<div className="card"></div>
+					<div className="card"></div>
+					<div className="card"></div>
+					<div className="card"></div>
+				</div>
 			</div>
 		</div>
 	);

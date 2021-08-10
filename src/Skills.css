@@ -88,7 +88,6 @@ li {
 }
 .Skill-bar footer #Ts {
 	background-color: #00a1ff;
-
 	animation: Ts 1.3s ease-out;
 	width: 15%;
 }
@@ -130,7 +129,7 @@ li {
 		width: 0%;
 	}
 	100% {
-		width: 35%;
+		width: 40%;
 	}
 }
 @keyframes Htmlcss {

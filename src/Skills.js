@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Menu from "./components/Menu";
 import "./Skills.css";
 import Typed from "typed.js";
+import sin from "./포스작렬신동진.jpg";
 
 function Skills() {
 	const skills = useRef(null);
