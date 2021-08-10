@@ -37,7 +37,7 @@
 	width: 48rem;
 	height: 30rem;
 	/* border: #5cce02 1px solid; */
-	font-size: 2rem;
+	font-size: 1.8rem;
 	/* background-color: blue; */
 }
 
@@ -45,7 +45,7 @@ li {
 	list-style-type: none;
 }
 .Skill-bar {
-	margin: 0.5rem;
+	margin: 1.2rem;
 }
 
 .Skill-bar footer {
@@ -53,7 +53,99 @@ li {
 	height: 2px;
 }
 .Skill-bar footer div {
-	transition: width 1.3s ease-out;
-	background-color: #b99dff;
 	height: 100%;
+}
+
+.Skill-bar footer #React {
+	background-color: #b99dff;
+	animation: React 1.3s ease-out;
+	width: 60%;
+}
+.Skill-bar footer #NodeJS {
+	background-color: #00ff43;
+	animation: NodeJS 1.3s ease-out;
+	width: 20%;
+}
+.Skill-bar footer #Flutter {
+	background-color: #00a1ff;
+	animation: Flutter 1.3s ease-out;
+	width: 50%;
+}
+.Skill-bar footer #Htmlcss {
+	background-color: #ff04f7;
+	animation: Htmlcss 1.3s ease-out;
+	width: 70%;
+}
+.Skill-bar footer #Python {
+	background-color: #ffe873;
+	animation: Python 1.3s ease-out;
+	width: 35%;
+}
+.Skill-bar footer #Git {
+	background-color: #f05133;
+	animation: Git 1.3s ease-out;
+	width: 40%;
+}
+.Skill-bar footer #Ts {
+	background-color: #00a1ff;
+
+	animation: Ts 1.3s ease-out;
+	width: 15%;
+}
+
+@keyframes React {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 60%;
+	}
+}
+@keyframes NodeJS {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 20%;
+	}
+}
+@keyframes Flutter {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 50%;
+	}
+}
+@keyframes Python {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 35%;
+	}
+}
+@keyframes Git {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 35%;
+	}
+}
+@keyframes Htmlcss {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 70%;
+	}
+}
+@keyframes Ts {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 15%;
+	}
 }

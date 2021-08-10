@@ -46,7 +46,55 @@ function Skills() {
 							<div className="Skill-bar">
 								<span>React</span>
 								<footer>
-									<div Style="width:40%"></div>
+									<div id="React"></div>
+								</footer>
+							</div>
+						</li>
+						<li>
+							<div className="Skill-bar">
+								<span>Node JS</span>
+								<footer>
+									<div id="NodeJS"></div>
+								</footer>
+							</div>
+						</li>
+						<li>
+							<div className="Skill-bar">
+								<span>Flutter</span>
+								<footer>
+									<div id="Flutter"></div>
+								</footer>
+							</div>
+						</li>
+						<li>
+							<div className="Skill-bar">
+								<span>HTML/CSS</span>
+								<footer>
+									<div id="Htmlcss"></div>
+								</footer>
+							</div>
+						</li>
+						<li>
+							<div className="Skill-bar">
+								<span>Python</span>
+								<footer>
+									<div id="Python"></div>
+								</footer>
+							</div>
+						</li>
+						<li>
+							<div className="Skill-bar">
+								<span>Git</span>
+								<footer>
+									<div id="Git"></div>
+								</footer>
+							</div>
+						</li>
+						<li>
+							<div className="Skill-bar">
+								<span>TypeScript</span>
+								<footer>
+									<div id="Ts"></div>
 								</footer>
 							</div>
 						</li>
