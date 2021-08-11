@@ -31,10 +31,10 @@ function Menu() {
 					<a href="https://www.instagram.com/mingsung_521/" target="_blank">
 						<i class="fab fa-instagram fa-2x"></i>
 					</a>
-					<a href="https://www.instagram.com/mingsung_521/" target="_blank">
+					<a href="https://www.facebook.com/kmskmskmskgb/" target="_blank">
 						<i class="fab fa-facebook-f fa-2x"></i>
 					</a>
-					<a href="https://www.instagram.com/mingsung_521/" target="_blank">
+					<a href="https://github.com/minsung521" target="_blank">
 						<i class="fab fa-github fa-2x"></i>
 					</a>
 				</ul>

@@ -24,8 +24,10 @@
 }
 
 .About-article {
+	font-family: "NanumSquare", "Noto Sans KR", "sans-serif";
+	font-weight: 300;
+	font-size: 20px;
 	margin-left: 0.5rem;
-
 	width: 40rem;
 	height: auto;
 	/* border: #5cce02 1px solid; */
@@ -36,4 +38,9 @@
 	width: 48rem;
 	height: 30rem;
 	/* background-color: blue; */
+}
+
+.dimigo {
+	color: #ff69b4;
+	text-decoration: none;
 }
