@@ -25,11 +25,11 @@ function Skills() {
 		<div className="Skills">
 			<Menu />
 			<div className="Skills-contents">
-				<div>
+				<header>
 					<span className="enter-text">❯ </span>
 					<span ref={skills} className="title"></span>
-				</div>
-				<div className="Skills-contents-main">
+				</header>
+				<main className="Skills-contents-main">
 					<p className="Skills-article">
 						<br />
 						<br />
@@ -99,7 +99,7 @@ function Skills() {
 							</div>
 						</li>
 					</div>
-				</div>
+				</main>
 			</div>
 		</div>
 	);

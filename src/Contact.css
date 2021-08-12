@@ -3,9 +3,25 @@
 	flex-direction: row-reverse;
 }
 .Contact-contents {
-	margin: 6rem auto 4rem 8rem;
+	width: 90rem;
+	border: #5cce02 1px solid;
+	margin: 4rem auto 4rem 4rem;
 	font-size: 64px;
 	font-weight: 600;
+}
+
+.contact-form {
+	border: #5cce02 1px solid;
+}
+
+ul {
+	display: block;
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
 }
 .enter-text {
 	color: #5cce02;

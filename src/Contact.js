@@ -25,8 +25,34 @@ function Contact() {
 		<div className="Contact">
 			<Menu />
 			<div className="Contact-contents">
-				<span className="enter-text">❯ </span>
-				<span ref={iam} className="title"></span>
+				<header>
+					<span className="enter-text">❯ </span>
+					<span ref={iam} className="title"></span>
+				</header>
+				<main>
+					<div className="contact-form">
+						<form id="contact" autoComplete="off">
+							<ul>
+								<li>
+									<input placeholder="name" type="text" />
+								</li>
+								<li>
+									<input placeholder="email" type="email" />
+								</li>
+								<li>
+									<input placeholder="title" type="text" />
+								</li>
+								<li>
+									<input placeholder="message" type="text" />
+								</li>
+								<li>
+									<input type="submit" />
+								</li>
+							</ul>
+						</form>
+					</div>
+					<div className="map"></div>
+				</main>
 			</div>
 		</div>
 	);

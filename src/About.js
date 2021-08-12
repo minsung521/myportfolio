@@ -25,11 +25,11 @@ function About() {
 		<div className="About">
 			<Menu />
 			<div className="About-contents">
-				<div>
+				<header>
 					<span className="enter-text">❯ </span>
 					<span ref={iam} className="title"></span>
-				</div>
-				<div className="About-contents-main">
+				</header>
+				<main className="About-contents-main">
 					<p className="About-article">
 						<br />
 						<br />
@@ -54,7 +54,7 @@ function About() {
 						<br />
 					</p>
 					<div className="About-detail"></div>
-				</div>
+				</main>
 			</div>
 		</div>
 	);
