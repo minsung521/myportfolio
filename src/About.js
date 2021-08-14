@@ -7,7 +7,7 @@ function About() {
 	const iam = useRef(null);
 	useEffect(() => {
 		const typed = new Typed(iam.current, {
-			strings: ["I am..."], // Strings to display
+			strings: ["Me,Myself and I"], // Strings to display
 			// Speed settings, try diffrent values untill you get good results
 			startDelay: 300,
 			typeSpeed: 120,

@@ -7,7 +7,7 @@ function Skills() {
 	const skills = useRef(null);
 	useEffect(() => {
 		const typed = new Typed(skills.current, {
-			strings: ["What can i do?"], // Strings to display
+			strings: ["Skills and Experience"], // Strings to display
 			// Speed settings, try diffrent values untill you get good results
 			startDelay: 300,
 			typeSpeed: 80,
@@ -100,6 +100,7 @@ function Skills() {
 						</li>
 					</div>
 				</main>
+				<footer className="historyline"></footer>
 			</div>
 		</div>
 	);
