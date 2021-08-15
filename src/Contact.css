@@ -3,9 +3,9 @@
 	flex-direction: row-reverse;
 }
 .Contact-contents {
-	width: 90rem;
+	width: 50rem;
 	border: #5cce02 1px solid;
-	margin: 4rem auto 4rem 4rem;
+	margin: 4rem 4rem 4rem 4rem;
 	font-size: 64px;
 	font-weight: 600;
 }
@@ -29,4 +29,10 @@ ul {
 }
 .title {
 	color: #88ffef;
+}
+.map-contents {
+	border: #5cce02 1px solid;
+	margin: 6rem auto 4rem 0rem;
+	width: 40rem;
+	height: 80vh;
 }

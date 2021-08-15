@@ -24,6 +24,7 @@ function Contact() {
 	return (
 		<div className="Contact">
 			<Menu />
+			<div className="map-contents"></div>
 			<div className="Contact-contents">
 				<header>
 					<span className="enter-text">❯ </span>
