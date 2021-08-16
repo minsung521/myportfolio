@@ -31,23 +31,26 @@ function Contact() {
 					<span ref={iam} className="title"></span>
 				</header>
 				<main>
+					{/* <p className="subarticle">
+						<br />
+						<br />
+						dfafs
+					</p> */}
 					<div className="contact-form">
 						<form id="contact" autoComplete="off">
 							<ul>
-								<li>
-									<input placeholder="name" type="text" />
+								<li className="half animated">
+									<input placeholder="Name" type="text" name="name" required />
+									<label></label>
 								</li>
-								<li>
-									<input placeholder="email" type="email" />
+								<li className="half animated">
+									<input placeholder="Email" type="email" />
 								</li>
-								<li>
-									<input placeholder="title" type="text" />
+								<li className=" animated title">
+									<input placeholder="Title" type="text" />
 								</li>
-								<li>
-									<input placeholder="message" type="text" />
-								</li>
-								<li>
-									<input type="submit" />
+								<li className=" animated full">
+									<input placeholder="Message" type="text" />
 								</li>
 							</ul>
 						</form>

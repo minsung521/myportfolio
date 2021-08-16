@@ -38,6 +38,17 @@ function Menu() {
 						<i class="fab fa-github fa-2x"></i>
 					</a>
 				</ul>
+				<div className="menu_contactform">
+					<form autoComplete="off">
+						<li>
+							<input type="text" placeholder="Title" className="title" />
+						</li>
+						<li>
+							<input type="text" placeholder="Message" className="message" />
+						</li>
+						<input type="submit" />
+					</form>
+				</div>
 			</nav>
 		</menu>
 	);
