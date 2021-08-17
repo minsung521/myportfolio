@@ -31,26 +31,49 @@ function Contact() {
 					<span ref={iam} className="title"></span>
 				</header>
 				<main>
-					{/* <p className="subarticle">
+					<p className="subarticle">
 						<br />
-						<br />
-						dfafs
-					</p> */}
+						다양한 프로젝트, 사람들과의 교류 및 경험에 관심이 많습니다. 질문이나
+						용건이 있으시다면 언제든지 아래 폼을 사용해 연락주세요!
+					</p>
 					<div className="contact-form">
 						<form id="contact" autoComplete="off">
 							<ul>
 								<li className="half animated">
-									<input placeholder="Name" type="text" name="name" required />
+									<input
+										className="input_field"
+										placeholder="Name"
+										type="text"
+										name="name"
+										required
+									/>
 									<label></label>
 								</li>
 								<li className="half animated">
-									<input placeholder="Email" type="email" />
+									<input
+										className="input_field"
+										placeholder="Email"
+										name="email"
+										type="email"
+									/>
 								</li>
-								<li className=" animated title">
-									<input placeholder="Title" type="text" />
+								<li className="title animated ">
+									<input
+										className="input_field"
+										placeholder="Title"
+										name="title"
+										type="text"
+									/>
 								</li>
-								<li className=" animated full">
-									<input placeholder="Message" type="text" />
+								<li className="animated full">
+									<textarea
+										className="input_field msg"
+										placeholder="Message"
+										name="msg"
+									/>
+								</li>
+								<li>
+									<div className="submit_btn animated">Send Message</div>
 								</li>
 							</ul>
 						</form>
