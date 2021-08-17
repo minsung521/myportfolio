@@ -33,7 +33,7 @@ ul {
 	color: #88ffef;
 }
 .map-contents {
-	border: #5cce02 1px solid;
+	/* border: #5cce02 1px solid; */
 	margin: 6rem auto 4rem 0rem;
 	width: 40rem;
 	height: 80vh;

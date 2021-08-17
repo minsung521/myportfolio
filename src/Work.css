@@ -29,8 +29,21 @@
 }
 
 .card {
-	border: #5cce02 1px solid;
-	margin: 1.2rem;
-	width: 14rem;
+	/* border: #5cce02 1px solid; */
+	margin: 0.5rem;
+	width: 44rem;
 	height: 20rem;
+	background-color: #2b2b2b;
+	animation: cardFadeIn 1s;
+}
+
+@keyframes cardFadeIn {
+	0% {
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+	100% {
+		opacity: 1;
+		transform: none;
+	}
 }
