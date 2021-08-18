@@ -1,12 +1,37 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import Typed from "typed.js";
 import Menu from "./components/Menu";
 import "./Work.css";
+import Card from "./MyWorkCard";
+import WorkContents from "./workcontents/WorkContents.json";
 
 function Work() {
-	const work = useRef(null);
+	const workType = useRef(null);
+	const [Works, setWorks] = useState([
+		{
+			id: 1,
+			coverImage: "./workcontents/img/ourbooks.png",
+			year: 2021,
+			title: "OURBOOKS - 당신의 독서도우미",
+			summary:
+				"도서 정보검색, 도서 카테고리별 종합등수, 사용자별 도서 추천 등의 기능을 제공하는 도서 이용지원 서비스 입니다.",
+			usedTechStack: ["react"],
+			link: "https://ourbooks-it.herokuapp.com/",
+		},
+		{
+			id: 2,
+			coverImage: "./workcontents/img/ourbooks.png",
+			year: 2021,
+			title: "OURBOOKS - 당신의 독서도우미",
+			summary:
+				"도서 정보검색, 도서 카테고리별 종합등수, 사용자별 도서 추천 등의 기능을 제공하는 도서 이용지원 서비스 입니다.",
+			usedTechStack: ["react"],
+			link: "https://ourbooks-it.herokuapp.com/",
+		},
+	]);
+
 	useEffect(() => {
-		const typed = new Typed(work.current, {
+		const typed = new Typed(workType.current, {
 			strings: ["Introducing my works!"], // Strings to display
 			// Speed settings, try diffrent values untill you get good results
 			startDelay: 300,
@@ -21,21 +46,31 @@ function Work() {
 			typed.destroy();
 		};
 	}, []);
+
 	return (
 		<div className="Work">
 			<Menu />
 			<div className="Work-contents">
 				<div>
 					<span className="enter-text">❯ </span>
-					<span ref={work} className="title"></span>
+					<span ref={workType} className="title"></span>
 				</div>
 				<div className="Work-cards">
-					<div className="card"></div>
-					<div className="card"></div>
-					<div className="card "></div>
-					<div className="card"></div>
-					<div className="card"></div>
-					<div className="card"></div>
+					{Works.map(
+						(work) => (
+							<Card
+								key={work.id}
+								id={work.id}
+								coverImage={work.coverImage}
+								year={work.year}
+								title={work.title}
+								summary={work.summary}
+								usedTechStack={work.usedTechStack}
+								link={work.link}
+							/>
+						)
+						// console.log(work)
+					)}
 				</div>
 			</div>
 		</div>
