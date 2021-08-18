@@ -41,12 +41,15 @@ function Menu() {
 				<div className="menu_contactform">
 					<form autoComplete="off">
 						<li>
-							<input type="text" placeholder="Title" className="title" />
+							<h2>contact</h2>
 						</li>
 						<li>
-							<input type="text" placeholder="Message" className="message" />
+							<input type="text" placeholder="Title" className="m_title" />
 						</li>
-						<input type="submit" />
+						<li>
+							<textarea placeholder="Message" className="m_message" />
+						</li>
+						<div className="m_submit">Send</div>
 					</form>
 				</div>
 			</nav>

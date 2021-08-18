@@ -40,7 +40,7 @@ ul {
 }
 
 .subarticle {
-	font-family: "NanumSquare", "Noto Sans KR", "sans-serif";
+	font-family: "sans-serif", "NanumSquare", "Noto Sans KR";
 	font-weight: 300;
 	font-size: 20px;
 	margin-left: 3rem;

@@ -73,7 +73,9 @@ function Contact() {
 									/>
 								</li>
 								<li>
-									<div className="submit_btn animated">Send Message</div>
+									<div className="submit_btn animated">
+										<span>Send Message</span>
+									</div>
 								</li>
 							</ul>
 						</form>
