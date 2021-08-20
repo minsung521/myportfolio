@@ -43,9 +43,22 @@ div .Flutter {
 	color: #025397;
 }
 
+div .Typescript {
+	color: #2e72bc;
+}
+
 div .Firebase {
 	color: #f5820c;
 }
+
+div .Flask {
+	color: #f2c43a;
+}
+
+div .nodeJS {
+	color: #7cc327;
+}
+
 .link {
 	text-decoration: none;
 	color: #88ffef;
