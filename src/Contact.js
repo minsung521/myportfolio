@@ -42,6 +42,8 @@ const Contact = () => {
 						icon: "success",
 						showConfirmButton: false,
 						timer: 1500,
+						iconColor: "#30C730",
+						background: "#D4E4CD",
 					});
 				},
 				(error) => {
@@ -51,6 +53,8 @@ const Contact = () => {
 						icon: "error",
 						showConfirmButton: false,
 						timer: 1500,
+						iconColor: "red",
+						background: "#E6D3D3",
 					});
 				}
 			);
