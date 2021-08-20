@@ -1,0 +1,40 @@
+.card {
+	font-family: "NanumSquare", "Noto Sans KR", "sans-serif";
+}
+
+.card img {
+	margin: 4%;
+	height: 80px;
+	float: left;
+}
+
+.card .card_title {
+	padding-top: 8%;
+	font-size: 24px;
+}
+
+header {
+	height: 120px;
+}
+
+ul {
+	list-style: disc;
+	padding: 0px 40px;
+}
+
+main {
+	font-size: 20px;
+}
+
+main .summary {
+	word-wrap: break-word;
+}
+
+span .React {
+	color: #61dafb;
+}
+
+.link {
+	text-decoration: none;
+	color: #88ffef;
+}

@@ -3,29 +3,31 @@ import Typed from "typed.js";
 import Menu from "./components/Menu";
 import "./Work.css";
 import Card from "./MyWorkCard";
-import WorkContents from "./workcontents/WorkContents.json";
+// import WorkContents from "./workcontents/WorkContents.json";
 
 function Work() {
 	const workType = useRef(null);
 	const [Works, setWorks] = useState([
 		{
 			id: 1,
-			coverImage: "./workcontents/img/ourbooks.png",
+			coverImage: "/images/ourbooks.png", // public에서만 상대경로 적용가능, src에 저장한 이미지는 import 해야함
 			year: 2021,
 			title: "OURBOOKS - 당신의 독서도우미",
 			summary:
 				"도서 정보검색, 도서 카테고리별 종합등수, 사용자별 도서 추천 등의 기능을 제공하는 도서 이용지원 서비스 입니다.",
-			usedTechStack: ["react"],
+			usedTechStack: ["React"],
+			StackColor: ["#61DAFB"],
 			link: "https://ourbooks-it.herokuapp.com/",
 		},
 		{
 			id: 2,
-			coverImage: "./workcontents/img/ourbooks.png",
+			coverImage: "/images/ourbooks.png",
 			year: 2021,
 			title: "OURBOOKS - 당신의 독서도우미",
 			summary:
 				"도서 정보검색, 도서 카테고리별 종합등수, 사용자별 도서 추천 등의 기능을 제공하는 도서 이용지원 서비스 입니다.",
-			usedTechStack: ["react"],
+			usedTechStack: ["React "],
+			StackColor: ["#61DAFB"],
 			link: "https://ourbooks-it.herokuapp.com/",
 		},
 	]);
@@ -65,6 +67,7 @@ function Work() {
 								year={work.year}
 								title={work.title}
 								summary={work.summary}
+								StackColor={work.StackColor}
 								usedTechStack={work.usedTechStack}
 								link={work.link}
 							/>
