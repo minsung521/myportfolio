@@ -16,19 +16,27 @@ function Work() {
 			summary:
 				"도서 정보검색, 도서 카테고리별 종합등수, 사용자별 도서 추천 등의 기능을 제공하는 도서 이용지원 서비스 입니다.",
 			usedTechStack: ["React"],
-			StackColor: ["#61DAFB"],
 			link: "https://ourbooks-it.herokuapp.com/",
 		},
 		{
 			id: 2,
-			coverImage: "/images/ourbooks.png",
+			coverImage: "/images/irfy.jpg",
 			year: 2021,
-			title: "OURBOOKS - 당신의 독서도우미",
+			title: "IRFY : I'm Ready For You",
 			summary:
-				"도서 정보검색, 도서 카테고리별 종합등수, 사용자별 도서 추천 등의 기능을 제공하는 도서 이용지원 서비스 입니다.",
-			usedTechStack: ["React "],
-			StackColor: ["#61DAFB"],
-			link: "https://ourbooks-it.herokuapp.com/",
+				"직장인을 위한 멘탈케어 솔루션입니다. 커뮤니티, 위로글귀, 공감컨텐츠 등을 제공하며 직장인들의 스트레스 해소를 돕습니다.",
+			usedTechStack: ["Flutter ", "Firebase"],
+			link: "https://github.com/minsung521/IRFY",
+		},
+		{
+			id: 3,
+			coverImage: "/images/noimg.png",
+			year: 2021,
+			title: "It's soccer time",
+			summary:
+				"해외축구를 보면서 생기는 불편한 점들을 해소하기 위한 서비스 입니다.",
+			usedTechStack: ["Flutter ", "Firebase ", "Flask"],
+			link: "https://github.com/minsung521/It-s_soccer_time",
 		},
 	]);
 
@@ -67,7 +75,6 @@ function Work() {
 								year={work.year}
 								title={work.title}
 								summary={work.summary}
-								StackColor={work.StackColor}
 								usedTechStack={work.usedTechStack}
 								link={work.link}
 							/>

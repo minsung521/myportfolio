@@ -25,15 +25,17 @@ function MyWorkCard({
 							<div className="year">{year}</div>
 						</li>
 						<li>
-							<div className="usedTechStack">{usedTechStack}</div>
-						</li>
-						<li>
-							<a className="link" href={link}>
-								Link
-							</a>
+							{usedTechStack.map((Stack, index) => (
+								<div className={`techStack ${Stack}`}>{Stack}</div>
+							))}
 						</li>
 						<li>
 							<div className="summary">{summary}</div>
+						</li>
+						<li>
+							<a className="link" href={link} target="_blank">
+								Link
+							</a>
 						</li>
 					</ul>
 				</main>

@@ -24,17 +24,30 @@ ul {
 
 main {
 	font-size: 20px;
+	line-height: 1.5;
 }
 
 main .summary {
 	word-wrap: break-word;
 }
 
-span .React {
+.techStack {
+	display: inline;
+}
+
+div .React {
 	color: #61dafb;
 }
 
+div .Flutter {
+	color: #025397;
+}
+
+div .Firebase {
+	color: #f5820c;
+}
 .link {
 	text-decoration: none;
 	color: #88ffef;
+	float: right;
 }
