@@ -14,32 +14,34 @@ function MyWorkCard({
 }) {
 	return (
 		<div>
-			<div className="card">
-				<header>
-					<img src={coverImage} alt={title} />
-					<div className="card_title">{title}</div>
-				</header>
-				<main>
-					<ul>
-						<li>
-							<div className="year">{year}</div>
-						</li>
-						<li>
-							{usedTechStack.map((Stack, index) => (
-								<div className={`techStack ${Stack}`}>{Stack}</div>
-							))}
-						</li>
-						<li>
-							<div className="summary">{summary}</div>
-						</li>
-						<li>
-							<a className="link" href={link} target="_blank">
-								Link
-							</a>
-						</li>
-					</ul>
-				</main>
-			</div>
+			{
+				<div className="card">
+					<header>
+						<img src={coverImage} alt={title} />
+						<div className="card_title">{title}</div>
+					</header>
+					<main>
+						<ul>
+							<li>
+								<div className="year">{year}</div>
+							</li>
+							<li>
+								{usedTechStack.map((Stack, index) => (
+									<div className={`techStack ${Stack}`}>{Stack}</div>
+								))}
+							</li>
+							<li>
+								<div className="summary">{summary}</div>
+							</li>
+							<li>
+								<a className="link" href={link} target="_blank">
+									Link
+								</a>
+							</li>
+						</ul>
+					</main>
+				</div>
+			}
 		</div>
 	);
 }

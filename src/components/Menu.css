@@ -93,11 +93,13 @@
 	outline: none;
 }
 .m_submit {
+	float: right;
+	margin-right: 2rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 14px;
-	width: 12rem;
+	width: 6rem;
 	height: 40px;
 	padding: 0 12px;
 	color: #6f6ccb;

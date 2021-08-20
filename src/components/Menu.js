@@ -1,8 +1,42 @@
 import React from "react";
 import "./Menu.css";
 import logo from "./logo.png";
+import Swal from "sweetalert2";
+import emailjs from "emailjs-com";
 
 function Menu() {
+	const sendEmail = (e) => {
+		e.preventDefault();
+
+		emailjs
+			.sendForm(
+				"portfolio",
+				"template_k3c8k9v",
+				e.target,
+				"user_FzpRR5bFxN5cYUCKeSCwJ"
+			)
+			.then(
+				(result) => {
+					Swal.fire({
+						title: "Success!",
+						text: "메시지가 전송되었습니다!",
+						icon: "success",
+						showConfirmButton: false,
+						timer: 1500,
+					});
+				},
+				(error) => {
+					Swal.fire({
+						title: "Error!",
+						text: "메시지 전송에 실패했습니다..",
+						icon: "error",
+						showConfirmButton: false,
+						timer: 1500,
+					});
+				}
+			);
+	};
+
 	return (
 		<menu className="main-menu">
 			<div className="separator"></div>
@@ -39,17 +73,32 @@ function Menu() {
 					</a>
 				</ul>
 				<div className="menu_contactform">
-					<form autoComplete="off">
+					<form autoComplete="off" onSubmit={sendEmail}>
 						<li>
 							<h2>contact</h2>
 						</li>
 						<li>
-							<input type="text" placeholder="Title" className="m_title" />
+							<input
+								type="text"
+								placeholder="Title"
+								className="m_title"
+								spellCheck="false"
+								name="title"
+								required
+							/>
 						</li>
 						<li>
-							<textarea placeholder="Message" className="m_message" />
+							<textarea
+								placeholder="Message"
+								className="m_message"
+								spellCheck="false"
+								name="message"
+								required
+							/>
 						</li>
-						<div className="m_submit">Send</div>
+						<button type="submit" className="m_submit">
+							<span className="innertext">Send</span>{" "}
+						</button>
 					</form>
 				</div>
 			</nav>

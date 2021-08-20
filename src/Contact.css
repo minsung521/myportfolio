@@ -51,7 +51,7 @@ ul {
 .contact-form ul li {
 	margin: 0;
 	padding: 0;
-	margin-bottom: 0.25rem;
+	margin-bottom: 0.5rem;
 }
 
 .contact-form ul li.half:first-child {
@@ -65,13 +65,11 @@ ul {
 .contact-form ul li.title {
 	width: 44.5rem;
 	margin-left: 0.25rem;
-	margin-bottom: 0.25rem;
 	float: left;
 }
 .contact-form ul li.full {
 	width: 44.5rem;
 	margin-left: 0.25rem;
-	margin-top: 0.25rem;
 	float: left;
 }
 
@@ -113,6 +111,7 @@ ul {
 
 .contact-form ul li .msg {
 	padding-top: 20px;
+	line-height: 1.25;
 	height: 300px;
 	font-family: "sans-serif";
 }
@@ -128,9 +127,14 @@ ul {
 	margin-left: 32.75rem;
 	justify-content: center;
 	align-items: center;
+	background-color: #1d1d1d;
 }
 
 .submit_btn:hover {
 	color: #2b2b2b;
 	background-color: #8c88fe;
+}
+
+.innertext {
+	cursor: pointer;
 }
