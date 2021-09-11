@@ -11,12 +11,7 @@ const Dimigo = () => {
 	useFrame(() => (ref.current.rotation.y += 0.01));
 	const gltf = useLoader(GLTFLoader, dimigo);
 	return (
-		<primitive
-			ref={ref}
-			object={gltf.scene}
-			vector3={[10, 10, 10]}
-			position={[0, -2, 0]}
-		></primitive>
+		<primitive ref={ref} object={gltf.scene} position={[0, -2, 0]}></primitive>
 	);
 };
 
