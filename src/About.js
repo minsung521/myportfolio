@@ -2,27 +2,27 @@ import React, { Suspense, useRef, useEffect } from "react";
 import Typed from "typed.js";
 import Menu from "./components/Menu";
 import "./About.css";
-import { Canvas, useFrame, useLoader } from "react-three-fiber";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import dimigo from "./dimigo.gltf";
+// import { Canvas, useFrame, useLoader } from "react-three-fiber";
+// import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+// import dimigo from "./dimigo.gltf";
 
-const Dimigo = () => {
-	const ref = useRef(null);
-	useFrame(() => (ref.current.rotation.y += 0.01));
-	const gltf = useLoader(GLTFLoader, dimigo);
-	return (
-		<primitive ref={ref} object={gltf.scene} position={[0, -2, 0]}></primitive>
-	);
-};
+// const Dimigo = () => {
+// 	const ref = useRef(null);
+// 	useFrame(() => (ref.current.rotation.y += 0.01));
+// 	const gltf = useLoader(GLTFLoader, dimigo);
+// 	return (
+// 		<primitive ref={ref} object={gltf.scene} position={[0, -2, 0]}></primitive>
+// 	);
+// };
 
-const Box = () => {
-	return (
-		<mesh>
-			<boxBufferGeometry attach="geometry" args={[1, 1, 1]} />
-			<meshStandardMaterial attach="material" transparent opacity={0.5} />
-		</mesh>
-	);
-};
+// const Box = () => {
+// 	return (
+// 		<mesh>
+// 			<boxBufferGeometry attach="geometry" args={[1, 1, 1]} />
+// 			<meshStandardMaterial attach="material" transparent opacity={0.5} />
+// 		</mesh>
+// 	);
+// };
 
 const About = () => {
 	const iam = useRef(null);
@@ -75,12 +75,12 @@ const About = () => {
 						<br />
 					</p>
 					<div className="About-detail">
-						<Canvas camera={{ position: [0, 0, 10] }}>
+						{/* <Canvas camera={{ position: [0, 0, 10] }}>
 							<ambientLight intensity={0.5} />
 							<spotLight intensity={0.8} position={[300, 300, 400]} />
 							<Suspense fallback={<Box />}>{<Dimigo />}</Suspense>
 						</Canvas>
-						<footer style={{ textAlign: "right" }}>by. Alex</footer>
+						<footer style={{ textAlign: "right" }}>by. Alex</footer> */}
 					</div>
 				</main>
 			</div>
