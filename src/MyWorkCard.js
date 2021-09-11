@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./MyWorkCard.css";
+import "MyWorkCard.css";
 
 function MyWorkCard({
 	id,

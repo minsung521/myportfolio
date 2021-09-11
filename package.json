@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-three/fiber": "^7.0.6",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -14,8 +15,10 @@
     "react-geocode": "^0.2.3",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-three-fiber": "^6.0.13",
     "react-typed": "^1.2.0",
     "sweetalert2": "^11.1.4",
+    "three": "^0.132.2",
     "typed.js": "^2.0.12",
     "web-vitals": "^1.1.2"
   },

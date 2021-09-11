@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import Typed from "typed.js";
 import Menu from "./components/Menu";
-import "./Work.css";
+import "Work.css";
 import Card from "./MyWorkCard";
 // import WorkContents from "./workcontents/WorkContents.json";
 
