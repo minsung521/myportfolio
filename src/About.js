@@ -75,12 +75,12 @@ const About = () => {
 						<br />
 					</p>
 					<div className="About-detail">
-						{/* <Canvas camera={{ position: [0, 0, 10] }}>
+						<Canvas camera={{ position: [0, 0, 10] }}>
 							<ambientLight intensity={0.5} />
 							<spotLight intensity={0.8} position={[300, 300, 400]} />
 							<Suspense fallback={<Box />}>{<Dimigo />}</Suspense>
 						</Canvas>
-						<footer style={{ textAlign: "right" }}>by. Alex</footer> */}
+						<footer style={{ textAlign: "right" }}>by. Alex</footer>
 					</div>
 				</main>
 			</div>
