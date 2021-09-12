@@ -2,7 +2,7 @@ import React, { Suspense, useRef, useEffect } from "react";
 import Typed from "typed.js";
 import Menu from "./components/Menu";
 import "./About.css";
-import { Canvas, useFrame, useLoader } from "react-three-fiber";
+import { Canvas, useFrame, useLoader } from "@react-three/fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import dimigo from "./dimigo.gltf";
 
