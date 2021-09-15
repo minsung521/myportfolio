@@ -30,13 +30,40 @@ function Work() {
 		},
 		{
 			id: 3,
-			coverImage: "/images/noimg.png",
+			coverImage: "/images/itssoccertime.png",
 			year: 2021,
 			title: "It's soccer time",
 			summary:
 				"해외축구를 보면서 생기는 불편한 점들을 해소하기 위한 서비스 입니다.",
-			usedTechStack: ["Flutter ", "Firebase ", "Flask"],
+			usedTechStack: ["Flutter ", "Firebase ", "django"],
 			link: "https://github.com/minsung521/It-s_soccer_time",
+		},
+		{
+			id: 4,
+			coverImage: "/images/noimg.png",
+			year: 2021,
+			title: "CARORO",
+			summary: "환경을 위한 친환경 코인티슈와 마일리지 적립 서비스.",
+			usedTechStack: ["Flutter "],
+			link: "http://mingsung.me/work",
+		},
+		{
+			id: 5,
+			coverImage: "/images/noimg.png",
+			year: 2021,
+			title: "ㅁㅌㅊ?",
+			summary: "자랑을 주제로 한 익명 커뮤니티.",
+			usedTechStack: ["Flutter ", "React ", "django"],
+			link: "http://mingsung.me/work",
+		},
+		{
+			id: 6,
+			coverImage: "/images/noimg.png",
+			year: 2021,
+			title: "문화재 GO",
+			summary: "카메라를 활용한 인공지능 문화해설사.",
+			usedTechStack: ["Flutter ", "Firebase ", "django ", "TensorFlow"],
+			link: "http://mingsung.me/work",
 		},
 	]);
 

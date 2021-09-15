@@ -59,6 +59,18 @@ div .nodeJS {
 	color: #7cc327;
 }
 
+div .django {
+	color: #0c4b33;
+}
+
+div .GO {
+	color: #7fd5ea;
+}
+
+div .TensorFlow {
+	color: #ff8400;
+}
+
 .link {
 	text-decoration: none;
 	color: #88ffef;
